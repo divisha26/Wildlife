@@ -1,0 +1,316 @@
+body
+{
+	margin:0;
+	padding:0;
+	width:100%;
+	color:#959595;
+	font:normal 12px/1.8em Arial, Helvetica, sans-serif;
+	background:#538136 url(images/header_bg.jpg) no-repeat center top;
+}
+
+
+#header
+{
+	width:100%;
+	height: auto;
+}
+#title
+{
+	width:1100px;
+	height:auto;
+	margin:0 auto;
+	text-align:center;
+	font-size:80px;
+	color:white;
+	text-style:italic;
+}
+#title img{
+	width: 200px;
+	height: 100px;
+}
+#clr 
+{
+	clear:both;
+	padding:0;
+	margin:0;
+	width:100%;
+	font-size:0;
+	line-height:0;
+}
+#clr1
+{
+	clear:both;
+	padding:0;
+	margin:0;
+	height: 10px;
+	width:100%;
+	font-size:0;
+	line-height:0;
+}
+#menu
+{
+	width:1096px;
+	margin:0 auto;
+	border-radius:30px 30px 0 0;
+	padding:0 2px;
+	height:56px;
+	background-color:#f7faf6;
+}
+#menu ul 
+{
+	list-style:none;
+}
+#menu ul li 
+{
+	margin:0;
+	padding:0;
+	float:left;
+	border-right:1px solid #ebebeb;
+}
+#menu ul li a 
+{
+	display:block;
+	margin:0;
+	padding:17px 24px;
+	color:#959595;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:14px;
+}
+#menu ul li.active a, #menu ul li a:hover 
+{
+	font-weight:bold;
+	color:green;
+}
+
+#Slideshow
+{
+	width: 1100px;
+	height: 500px;
+	margin: 0 auto;
+}
+#Slideshow figure
+{
+	position:relative;
+	display:block;
+	width:100%;
+	margin:0;
+	left:0;
+}
+#Slideshow figure img
+{
+	width:20%;
+}	
+@keyframes slider
+{
+	0% {	left:0;	}
+	20%{	left:0;	}
+	25% {	left:-100%; }
+	45%	{	left:-100%; }
+	50% {	left:-200%; }
+	70%	{	left:-200%;	}
+	75% {	left:-300%; }
+	95% {	left:-300%;	}
+	100% {	left:-400%;	}
+}
+#clear1 
+{
+	clear:both;
+	width:100%;
+	height:10px;
+}
+
+#main
+{
+	width:100%;
+	height:auto;
+}
+#content
+{
+	width:1060px;
+	height:auto;
+	background-color:white;
+	margin:0 auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top:10px;
+	padding-bottom:10px;
+	border-radius:0 0 30px 30px;
+	
+}
+#content p
+{
+	text-align:justify;
+	font:20px/1.8em Times New Roman, Helvetica, sans-serif;
+}
+#content h1
+{
+	color:Green;
+	text-align:center;
+	font-size:40px;
+}
+#content h2
+{
+	color:Black;
+	text-align:center;
+	font-size:30px;
+}
+#content h3
+{
+	color:Black;
+	text-align:left;
+	font-size:20px;
+}
+
+#fbg
+{
+	background:repeat-x center bottom;
+}
+#fbg_resize 
+{	
+	width:1060px;
+	height:auto;
+	background-color:white;
+	margin:0 auto;
+	color:#959595;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top:10px;
+	padding-bottom:10px;
+	border-radius:30px 30px 30px 30px;
+	font:15px/1.8em Times New Roman, Helvetica, sans-serif;
+}
+
+#fbg img 
+{
+	padding:3px;
+	border:1px solid #cfd2d4;
+}
+.col 
+{
+	margin:0;
+	float:left;
+}
+.c1 
+{
+	padding:0 16px 0 15px;
+	width:266px;
+}
+.c2 
+{
+	padding:0 16px;
+	width:300px;
+}
+.c2 ul
+{
+	list-style:none;
+}
+.c2 ul li
+{
+	padding-top:5px;
+	color:#959595;
+}
+.c2 ul li a
+{
+	margin:0;
+	padding:2px 4px;
+	color:#959595;
+	text-decoration:none;
+}
+.c2 ul li a:hover
+{
+	color:green;
+	font-weight:bold;
+}
+.c3 
+{
+	padding:0 0 0 16px;
+	width:300px;
+}
+.footer {
+}
+.footer_resize {
+	margin:0 auto;
+	padding:24px 40px;
+	width:890px;
+	color: white;
+}
+.footer p {
+	margin:0;
+	padding:4px 0;
+	line-height:normal;
+}
+.footer a {
+	color:#959595;
+	padding:inherit;
+	text-decoration:underline;
+}
+.footer a:hover {
+	text-decoration:none;
+}
+.footer .lf {
+	float:left;
+}
+.footer .rf {
+	float:right;
+}
+ol {
+	list-style:none;
+}
+ol li {
+	display:block;
+	clear:both;
+}
+ol li label {
+	display:block;
+	margin:0;
+	padding:16px 0 0 0;
+}
+ol li input.text {
+	width:480px;
+	border:1px solid #c0c0c0;
+	margin:2px 0;
+	padding:5px 2px;
+	height:16px;
+	background:#fff;
+}
+ol li textarea {
+	width:480px;
+	border:1px solid #c0c0c0;
+	margin:2px 0;
+	padding:2px;
+	background:#fff;
+}
+ol li .send {
+	margin:16px 0 0 0;
+}
+.searchform {
+	float:right;
+}
+#formsearch {
+	margin:0;
+	padding:4px 0;
+}
+#formsearch span {
+	display:block;
+	margin:6px 0;
+	padding:0;
+	float:left;
+	background:#fff url(images/search.gif) no-repeat top left;
+}
+#formsearch input.editbox_search {
+	margin:0;
+	padding:11px 6px 10px;
+	float:left;
+	width:181px;
+	border:none;
+	background:none;
+	font:normal 12px/1.5em Arial, Helvetica, sans-serif;
+	color:#a8acb2;
+}
+#formsearch input.button_search {
+	margin:6px 0 0 0;
+	padding:0;
+	border:none;
+	float:left;
+}
